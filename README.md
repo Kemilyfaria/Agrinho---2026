@@ -1,18 +1,29 @@
-# Agrinho---2026
-Repositório referente ao projeto agrinho 2026
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho 2026 - Estufa Inteligente de Morangos</title>
+# Agrinho 2026
 
-    <!-- Descrição para buscadores / SEO -->
-    <meta name="description" content="Simulador de estufa de morangos para o Agrinho 2026. Controle temperatura, umidade do ar e solo para acompanhar o desenvolvimento das plantas e aprender sobre agricultura sustentável.">
+Repositório do projeto desenvolvido para o concurso Agrinho 2026, com uma página interativa sobre uma estufa inteligente para morangos.
 
-    <!-- Palavras-chave para buscadores -->
-    <meta name="keywords" content="Agrinho 2026, estufa de morangos, agricultura sustentável, simulador, ensino médio, tecnologia agrícola">
+## Sobre o projeto
+Este projeto apresenta uma solução simples e educativa para mostrar como a tecnologia pode auxiliar na agricultura sustentável. A página permite simular condições de temperatura, umidade do ar e umidade do solo para acompanhar o desenvolvimento da plantação.
 
-    <!-- Orientações resumidas (pode ser lido por leitores de tela ou HeadMe) -->
-    <meta name="instructions" content="Use o simulador para ajustar temperatura, umidade do ar e do solo. Observe o status das plantas e ícones visuais. Navegue pelas abas: Simulador, Sobre Mim, Sobre o Agrinho e Como Usar.">
+## Funcionalidades
+- Simulador interativo de condições da estufa
+- Visualização do status da plantação
+- Navegação entre páginas com informações sobre o projeto e o concurso
 
-    <link rel="stylesheet" href="style.css">
-</head>
+## Arquivos principais
+- [INDEX.HTML](INDEX.HTML) — estrutura da página
+- [STYLE.CSS](STYLE.CSS) — estilos da interface
+- [SCRIPT.JS](SCRIPT.JS) — lógica do simulador e navegação
+
+## Como visualizar
+Você pode abrir o projeto diretamente no navegador ou usar um servidor local simples:
+
+```bash
+python3 -m http.server 8000
+```
+
+Depois, acesse:
+
+```text
+http://127.0.0.1:8000/INDEX.HTML
+```

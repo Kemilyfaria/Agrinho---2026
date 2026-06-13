@@ -9,7 +9,7 @@ function mostrarPagina(paginaId) {
     if (pagina) {
         pagina.classList.add('ativa');
     }
-
+//A lógica foi criada por IA.
     const botoes = document.querySelectorAll('.nav-btn');
     botoes.forEach(botao => {
         const ativo = botao.dataset.pagina === paginaId;
