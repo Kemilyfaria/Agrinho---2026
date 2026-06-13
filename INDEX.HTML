@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agrinho 2026 - Estufa Inteligente de Morangos</title>
+    <link rel="stylesheet" href="STYLE.CSS" />
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>🍓 Estufa Inteligente de Morangos</h1>
+            <p>Agrinho 2026 - Agro forte, futuro sustentável</p>
+            <p class="hero-subtitle">Monitore temperatura, umidade e veja em tempo real o estado da plantação.</p>
+        </div>
+    </header>
+
+    <nav>
+        <button type="button" class="nav-btn active" data-pagina="simulador">Simulador</button>
+        <button type="button" class="nav-btn" data-pagina="sobre">Sobre Mim</button>
+        <button type="button" class="nav-btn" data-pagina="agrinho">Sobre o Agrinho</button>
+    </nav>
+
+    <!-- Página Simulador -->
+    <section id="simulador" class="pagina ativa">
+
+        <h2>🌱 Simulador da Estufa</h2>
+        <p class="dica">Ajuste os controles para explorar diferentes cenários de cultivo.</p>
+
+        <div class="painel">
+
+            <div class="controle">
+                <label for="temperatura">🌡️ Temperatura (°C)</label>
+                <input type="range" id="temperatura" min="10" max="40" value="25" />
+                <span id="tempValor">25°C</span>
+            </div>
+
+            <div class="controle">
+                <label for="umidadeAr">💧 Umidade do Ar (%)</label>
+                <input type="range" id="umidadeAr" min="20" max="100" value="70" />
+                <span id="arValor">70%</span>
+            </div>
+
+            <div class="controle">
+                <label for="umidadeSolo">🌿 Umidade do Solo (%)</label>
+                <input type="range" id="umidadeSolo" min="20" max="100" value="75" />
+                <span id="soloValor">75%</span>
+            </div>
+
+        </div>
+
+        <div class="resultado">
+            <h3>Status da Plantação</h3>
+            <div id="status">Condições ideais para os morangos 🍓</div>
+        </div>
+
+        <div class="estufa">
+            <div id="morangos">🍓🍓🍓🍓🍓</div>
+        </div>
+
+    </section>
+
+    <!-- Página Sobre Mim -->
+    <section id="sobre" class="pagina">
+
+        <h2>👨‍🎓 Sobre Mim</h2>
+
+        <div class="card">
+            <p>
+                Meu nome é <strong>Kemily</strong> e sou aluna do
+                <strong>3º ano do Ensino Médio</strong>.
+            </p>
+
+            <p>
+                Este projeto foi desenvolvido para o Concurso Agrinho 2026,
+                com o objetivo de demonstrar como a tecnologia pode auxiliar
+                na agricultura sustentável.
+            </p>
+
+            <p>
+                A estufa inteligente permite monitorar temperatura,
+                umidade do ar e umidade do solo, ajudando a produzir alimentos
+                com maior qualidade e menor desperdício de recursos naturais.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Página Agrinho -->
+    <section id="agrinho" class="pagina">
+
+        <h2>🏆 Sobre o Concurso Agrinho</h2>
+
+        <div class="card">
+
+            <p>
+                O Agrinho é um dos maiores programas educacionais do Brasil,
+                incentivando estudantes a refletirem sobre cidadania,
+                sustentabilidade, tecnologia e desenvolvimento do campo.
+            </p>
+
+            <p>
+                Em 2026, o tema é:
+            </p>
+
+            <blockquote>
+                "Agro forte, futuro sustentável:
+                equilíbrio entre produção e meio ambiente"
+            </blockquote>
+
+            <p>
+                Este projeto apresenta uma estufa inteligente para produção
+                de morangos, demonstrando como a agricultura moderna pode
+                produzir mais alimentos preservando os recursos naturais.
+            </p>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Projeto Agrinho 2026 | Estufa Inteligente de Morangos 🍓</p>
+    </footer>
+
+    <script src="SCRIPT.JS"></script>
+</body>
+</html>
